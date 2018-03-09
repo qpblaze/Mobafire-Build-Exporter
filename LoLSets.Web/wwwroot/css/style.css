@@ -1,5 +1,5 @@
 ﻿#full-bg {
-  background: url(../img/background.jpeg);
+  background: url(../img/background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -7,4 +7,36 @@
 
 html, body {
   height: 100%; }
+
+.light-text {
+  color: #F6F7EB; }
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  color: #F6F7EB; }
+
+.btn-download {
+  margin-top: 30px;
+  padding: 15px 30px; }
+
+.margin-bottom-2 {
+  margin-bottom: 20px; }
+
+.blur-box {
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
+  padding: 40px 50px;
+  box-shadow: 0 0 0.8rem 0.6rem rgba(0, 0, 0, 0.3); }
+
+.form-control {
+  background-color: transparent;
+  height: 50px;
+  color: #DFE0D5; }
+  .form-control:focus {
+    background-color: transparent;
+    color: #DFE0D5;
+    outline: none;
+    box-shadow: none;
+    border-color: #F6F7EB; }
 

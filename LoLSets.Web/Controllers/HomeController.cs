@@ -29,10 +29,12 @@ namespace LoLSets.Web.Controllers
 
         [HttpPost]
         [Route("/")]
-        public async Task<IActionResult> IndexAsync(GetSetViewModel model)
+        public async Task<IActionResult> Index(GetSetViewModel model)
         {
             if (!ModelState.IsValid)
-                return new JsonResult(null);
+            {
+                return View(model);
+            }
 
             ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link);
             

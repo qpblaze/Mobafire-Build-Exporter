@@ -3,17 +3,29 @@
     ViewData["Title"] = "Index";
 }
 
-<div class="container d-flex h-100 text-center">
-    <div class="col-md-2"></div>
-    <div class="justify-content-center align-self-center col-md-8">
+<body id="full-bg">
+    <div class="container d-flex h-100">
+        <div class="justify-content-center align-self-center col-md-12">
+            <div class="blur-box align-self-center">
+                <h1 class="title text-center">Mobafire Build Exporter</h1>
+                <form method="post">
+                    <div class="form-group margin-bottom-2">
+                        <label asp-for="Link" class="light-text"></label>
+                        <input asp-for="Link" type="text" class="form-control" placeholder="Mobafire link" autocomplete="off">
+                        <span asp-validation-for="Link" class="text-danger"></span>
+                    </div>
+                    <div class="form-group margin-bottom-2">
+                        <label asp-for="Title" class="light-text"></label>
+                        <input asp-for="Title" type="text" class="form-control" placeholder="Leave empty for default title" autocomplete="off">
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+                    <div class="text-center">
 
-        <h2>Mobafire Build Exporter</h2>
-        <br />
-        <form method="post">
-            <div class="form-group">
-                <input asp-for="Link" type="text" class="form-control" placeholder="Enter link" autocomplete="off">
+                        <button type="submit" class="btn btn-primary btn-download">Download</button>
+                    </div>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+           
+        </div>
     </div>
-</div>
+</body>

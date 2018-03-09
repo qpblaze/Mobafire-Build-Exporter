@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\img\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LoLSets.Core\LoLSets.Core.csproj" />
     <ProjectReference Include="..\LoLSets.Infrastructure\LoLSets.Infrastructure.csproj" />
   </ItemGroup>

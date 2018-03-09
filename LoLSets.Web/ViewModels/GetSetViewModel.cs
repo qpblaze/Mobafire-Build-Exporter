@@ -1,11 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace LoLSets.Web.ViewModels
 {
     public class GetSetViewModel
     {
-        [Required]
+        [Required(ErrorMessage = "Please enter the link.")]
         public string Link { get; set; }
+
+        [DisplayName("Build Title")]
         public string Title { get; set; }
     }
 }
