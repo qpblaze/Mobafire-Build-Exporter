@@ -1,0 +1,19 @@
+﻿@model LoLSets.Web.ViewModels.GetSetViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container d-flex h-100 text-center">
+    <div class="col-md-2"></div>
+    <div class="justify-content-center align-self-center col-md-8">
+
+        <h2>Mobafire Build Exporter</h2>
+        <br />
+        <form method="post">
+            <div class="form-group">
+                <input asp-for="Link" type="text" class="form-control" placeholder="Enter link" autocomplete="off">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
