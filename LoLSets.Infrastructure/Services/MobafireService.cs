@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using LoLSets.Core.Entities;
 using LoLSets.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -28,6 +29,9 @@ namespace LoLSets.Infrastructure.Services
 
             using (var response = await client.GetAsync(link))
             {
+                if (!response.IsSuccessStatusCode)
+                    throw new Exception("The link is not valid.");
+
                 using (var content = response.Content)
                 {
                     var result = await content.ReadAsStringAsync();
@@ -151,6 +155,21 @@ namespace LoLSets.Infrastructure.Services
             }
 
             return itemSet;
+        }
+
+        public bool IsLinkValid(string link)
+        {
+            if(!Uri.IsWellFormedUriString(link, UriKind.Absolute))
+                return false;
+
+            Uri uri = new Uri(link);
+            if(uri.Host.ToLower() != "www.mobafire.com")
+                return false;
+
+            if (!uri.LocalPath.ToLower().Contains("/league-of-legends/build/"))
+                return false;
+
+            return true;
         }
     }
 }

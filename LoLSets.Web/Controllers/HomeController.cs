@@ -4,6 +4,7 @@ using LoLSets.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,18 +37,32 @@ namespace LoLSets.Web.Controllers
                 return View(model);
             }
 
-            ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link, model.Title);
-            
-            var settings = new JsonSerializerSettings
+            if(!_mobafireService.IsLinkValid(model.Link))
             {
-                ContractResolver = new CamelCasePropertyNamesContractResolver()
-            };
-            string json = JsonConvert.SerializeObject(itemSet, settings);
+                ModelState.AddModelError("Link", "The link is not valid.");
+                return View(model);
+            }
 
-            var stream = new MemoryStream(Encoding.UTF8.GetBytes(json ?? ""));
+            try
+            {
+                ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link, model.Title);
 
-            var response = File(stream, "application/octet-stream", "build.json"); // FileStreamResult
-            return response;
+                var settings = new JsonSerializerSettings
+                {
+                    ContractResolver = new CamelCasePropertyNamesContractResolver()
+                };
+                string json = JsonConvert.SerializeObject(itemSet, settings);
+
+                var stream = new MemoryStream(Encoding.UTF8.GetBytes(json ?? ""));
+
+                var response = File(stream, "application/octet-stream", "build.json");
+                return response;
+            }
+            catch(Exception ex)
+            {
+                ModelState.AddModelError("Link", ex.Message);
+                return View(model);
+            }
         }
     }
 }
