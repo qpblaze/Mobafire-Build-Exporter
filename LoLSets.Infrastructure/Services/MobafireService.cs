@@ -121,13 +121,20 @@ namespace LoLSets.Infrastructure.Services
             return champions;
         }
 
-        public async Task<ItemSet> GetItemSetAsync(string link)
+        public async Task<ItemSet> GetItemSetAsync(string link, string title = null)
         {
             ItemSet itemSet = new ItemSet();
 
             await LoadDocument(link);
 
-            itemSet.Title = GetTitle();
+            if (title == null)
+            {
+                itemSet.Title = GetTitle();
+            }
+            else
+            {
+                itemSet.Title = title;
+            }
             itemSet.AssociatedMaps = GetMaps();
             itemSet.AssociatedChampions = GetChampions();
 

@@ -36,7 +36,7 @@ namespace LoLSets.Web.Controllers
                 return View(model);
             }
 
-            ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link);
+            ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link, model.Title);
             
             var settings = new JsonSerializerSettings
             {

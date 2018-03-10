@@ -5,6 +5,6 @@ namespace LoLSets.Core.Interfaces
 {
     public interface IMobafireService
     {
-        Task<ItemSet> GetItemSetAsync(string link);
+        Task<ItemSet> GetItemSetAsync(string link, string title);
     }
 }

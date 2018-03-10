@@ -9,20 +9,20 @@ namespace LoLSets.Infrastructure.Services
 {
     public class ItemService : IItemService
     {
-        private readonly List<Item> _items;
+        private readonly Dictionary<int, Item> _items;
 
         public ItemService()
         {
             using (StreamReader r = new StreamReader("items.json"))
             {
                 string json = r.ReadToEnd();
-                _items = JsonConvert.DeserializeObject<List<Item>>(json);
+                _items = JsonConvert.DeserializeObject<Dictionary<int, Item>>(json);
             }
         }
 
         public Item GetItemByName(string name)
         {
-            return _items.FirstOrDefault(x => x.Name.Trim().ToLower().Contains(name.Trim().ToLower()));
+            return _items.FirstOrDefault(x => x.Value.Name.Trim().ToLower().Contains(name.Trim().ToLower())).Value;
         }
 
         public int GetItemId(string name)
