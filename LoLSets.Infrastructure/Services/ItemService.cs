@@ -22,7 +22,8 @@ namespace LoLSets.Infrastructure.Services
 
         public Item GetItemByName(string name)
         {
-            return _items.FirstOrDefault(x => x.Value.Name.Trim().ToLower().Contains(name.Trim().ToLower())).Value;
+            return _items.FirstOrDefault(x => x.Value.InStore == true &&
+                            x.Value.Name.Trim().ToLower().Contains(name.Trim().ToLower())).Value;
         }
 
         public int GetItemId(string name)

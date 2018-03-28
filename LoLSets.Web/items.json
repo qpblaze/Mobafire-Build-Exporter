@@ -50,18 +50,21 @@
     "2424": {
       "id": 2424,
       "name": "Broken Stopwatch",
-      "description": "<unique>UNIQUE Passive:</unique> Is broken, but can still be upgraded.<br><br><rules>After breaking one Stopwatch, the shopkeeper will only sell you Broken Stopwatches.</rules>"
+      "description": "<unique>UNIQUE Passive:</unique> Is broken, but can still be upgraded.<br><br><rules>After breaking one Stopwatch, the shopkeeper will only sell you Broken Stopwatches.</rules>",
+      "inStore": false
     },
     "3513": {
       "id": 3513,
       "name": "Eye of the Herald",
       "description": "<br><unique>UNIQUE Passive - Glimpse of the Void:</unique> The holder of the Eye of the Herald has Empowered Recall.<br><br><active>UNIQUE Active:</active> Channel for 3.5 seconds to crush the Eye of the Herald, summoning the Rift Herald to siege enemy turrets.<br><br>The Eye of the Herald will be lost to the Void if not used within 240 seconds.</font>",
-      "plaintext": "Eye of the Herald - a Gift of the Void."
+      "plaintext": "Eye of the Herald - a Gift of the Void.",
+      "inStore": false
     },
     "2423": {
       "id": 2423,
       "name": "Stopwatch",
-      "description": "<active>UNIQUE Active - Stasis:</active> Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (One time use)."
+      "description": "<active>UNIQUE Active - Stasis:</active> Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (One time use).",
+      "inStore": false
     },
     "3512": {
       "id": 3512,
@@ -73,7 +76,8 @@
       "id": 2422,
       "name": "Slightly Magical Boots",
       "description": "<groupLimit>Limited to 1 pair of boots.</groupLimit><br><br><unique>UNIQUE Passive - Enhanced Movement:</unique> +25 Movement Speed<br><br><unique>UNIQUE Passive:</unique> +10 Movement Speed<br><br>Boots that build from Slightly Magical Boots retains the +10 Movement Speed.",
-      "plaintext": "Slightly increases Movement Speed"
+      "plaintext": "Slightly increases Movement Speed",
+      "inStore": false
     },
     "2421": {
       "id": 2421,
@@ -90,7 +94,8 @@
     "3630": {
       "id": 3630,
       "name": "Siege Teleport",
-      "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform."
+      "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform.",
+      "inStore": false
     },
     "3751": {
       "id": 3751,
@@ -107,7 +112,8 @@
     "3633": {
       "id": 3633,
       "name": "Siege Teleport",
-      "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform."
+      "description": "<unique>Active:</unique> Use this trinket to teleport to one of your team's port pads. Can only be used from the summoning platform.",
+      "inStore": false
     },
     "3634": {
       "id": 3634,
@@ -130,7 +136,8 @@
     "3637": {
       "id": 3637,
       "name": "Nexus Siege: Siege Weapon Slot",
-      "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!"
+      "description": "In Nexus Siege, Summoner Spells are replaced with Siege Weapon Slots. Spend Crystal Shards to buy single-use Siege Weapons from the item shop, then use your Summoner Spell keys to activate them!",
+      "inStore": false
     },
     "3092": {
       "id": 3092,
@@ -177,7 +184,8 @@
     "3649": {
       "id": 3649,
       "name": "Siege Sight Warder",
-      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Places a <font color='#FFFFFF'>Stealth Ward</font> that lasts <font color='#FFFFFF'>30</font> seconds (30 second cooldown)."
+      "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Places a <font color='#FFFFFF'>Stealth Ward</font> that lasts <font color='#FFFFFF'>30</font> seconds (30 second cooldown).",
+      "inStore": false
     },
     "3401": {
       "id": 3401,
@@ -207,13 +215,15 @@
       "id": 3645,
       "name": "Seer Stone (Trinket)",
       "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Reveals a small area within <font color='#FFFFF'>1400</font> range for 3 seconds. Enemy champions will be revealed for 5 seconds (60 second cooldown)",
-      "plaintext": "Briefly reveals a nearby targeted area"
+      "plaintext": "Briefly reveals a nearby targeted area",
+      "inStore": false
     },
     "2319": {
       "id": 2319,
       "name": "Sly Sack of Gold",
       "description": "<mainText><font color='#FF9900'>Click to Consume:</font> Contains 40-110 gold.<br><br>Can be sold for @Value@ gold.</mainText>",
-      "plaintext": "Filled with gold"
+      "plaintext": "Filled with gold",
+      "inStore": false
     },
     "3647": {
       "id": 3647,
@@ -223,27 +233,25 @@
     },
     "3648": {
       "id": 3648,
-      "name": "Siege Teleport (Inactive)"
+      "name": "Siege Teleport (Inactive)",
+      "inStore": false
     },
     "3416": {
       "id": 3416,
       "name": "Head of Kha'Zix",
-      "description": "<unique>UNIQUE Active - Scrying:</unique> Reveals a small location within 4000 range for 2 seconds. Enemy champions found will be revealed for 5 seconds (90 second cooldown).<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled."
+      "description": "<unique>UNIQUE Active - Scrying:</unique> Reveals a small location within 4000 range for 2 seconds. Enemy champions found will be revealed for 5 seconds (90 second cooldown).<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled.",
+      "inStore": false
     },
     "3410": {
       "id": 3410,
       "name": "Head of Kha'Zix",
-      "description": "<unique>UNIQUE Active - Sweeping Lens:</unique> Reveals and disables nearby invisible traps and invisible wards for 6 seconds in a medium radius and grants detection of invisible units for 10 seconds (60 second cooldown).<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled."
+      "description": "<unique>UNIQUE Active - Sweeping Lens:</unique> Reveals and disables nearby invisible traps and invisible wards for 6 seconds in a medium radius and grants detection of invisible units for 10 seconds (60 second cooldown).<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled.",
+      "inStore": false
     },
     "3671": {
       "id": 3671,
       "name": "Enchantment: Warrior",
       "description": "<stats>+60 Attack Damage<br>+10% Cooldown Reduction</stats>"
-    },
-    "3672": {
-      "id": 3672,
-      "name": "Enchantment: Cinderhulk",
-      "description": "<stats>+325 Health<br>+15% Bonus Health</stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 7 (+2 per champion level) magic damage a second to nearby enemies while in combat. Deals 100% bonus damage to monsters. "
     },
     "3673": {
       "id": 3673,
@@ -319,7 +327,8 @@
     "3422": {
       "id": 3422,
       "name": "Head of Kha'Zix",
-      "description": "<unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled."
+      "description": "<unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled.",
+      "inStore": false
     },
     "1001": {
       "id": 1001,
@@ -367,7 +376,8 @@
       "id": 3200,
       "name": "Prototype Hex Core",
       "description": "<stats>+1 Ability Power per level<br>+10 Mana per level</stats><br><br><unique>UNIQUE Passive - Progress:</unique> This item can be upgraded three times to enhance Viktor's basic abilities.",
-      "plaintext": "Increases Ability Power and can be upgraded to improve Viktor's abilities"
+      "plaintext": "Increases Ability Power and can be upgraded to improve Viktor's abilities",
+      "inStore": false
     },
     "1018": {
       "id": 1018,
@@ -386,11 +396,6 @@
       "name": "Timeworn Frostfang",
       "description": "<stats>+20 Ability Power<br>+2 Gold per 10 seconds<br><mana>+50% Base Mana Regen </mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Tribute:</unique> Damaging spells and attacks against champions or buildings deal 18 additional magic damage and grant 15 Gold per unique spell cast. This can occur up to 3 times every 30 seconds. Killing minions slows Tribute generation.<br><unique>UNIQUE Passive:</unique> Gain <a href='SupportFocus'>Bandit</a>.<hr><passive>QUEST:</passive> Earn 750 gold using this item.<br><passive>REWARD:</passive> <font color='#CFBF84'>Tribute</font> is upgraded into <font color='#CFBF84'><a href='frostqueenslinequestreward'>Queen's Tribute</a></font>.<br><br><groupLimit>Limited to 1 Gold Income item.</groupLimit>",
       "plaintext": "Grants gold when you damage an enemy"
-    },
-    "3675": {
-      "id": 3675,
-      "name": "Enchantment: Bloodrazor",
-      "description": "<stats>+50% Attack Speed</stats><br><br><unique>UNIQUE Passive:</unique> Basic attacks deal 4% of the target's maximum Health in bonus physical damage (max 75 vs. monsters and minions) on hit."
     },
     "3690": {
       "id": 3690,
@@ -467,7 +472,8 @@
     "2012": {
       "id": 2012,
       "name": "Looted Biscuit of Rejuvenation",
-      "description": "<consumable>Click to Consume:</consumable> Restores 15% of missing Health and Mana over 15 seconds."
+      "description": "<consumable>Click to Consume:</consumable> Restores 15% of missing Health and Mana over 15 seconds.",
+      "inStore": false
     },
     "3101": {
       "id": 3101,
@@ -490,7 +496,8 @@
     "2011": {
       "id": 2011,
       "name": "Elixir Of Skill",
-      "description": "<consumable>Click to Consume:</consumable> Grants <font color='#29E3D6'>+1 Skill Point</font>."
+      "description": "<consumable>Click to Consume:</consumable> Grants <font color='#29E3D6'>+1 Skill Point</font>.",
+      "inStore": false
     },
     "3100": {
       "id": 3100,
@@ -507,7 +514,8 @@
     "2010": {
       "id": 2010,
       "name": "Total Biscuit of Everlasting Will",
-      "description": "<consumable>Click to Consume:</consumable> Restores 15% of missing Health and Mana over 15 seconds."
+      "description": "<consumable>Click to Consume:</consumable> Restores 15% of missing Health and Mana over 15 seconds.",
+      "inStore": false
     },
     "3341": {
       "id": 3341,
@@ -519,7 +527,8 @@
       "id": 3462,
       "name": "Seer Stone (Trinket)",
       "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Reveals a small area within <font color='#FFFFF'>2500</font> range for 3 seconds. Enemy champions will be revealed for 5 seconds (60 second cooldown)",
-      "plaintext": "Briefly reveals a nearby targeted area"
+      "plaintext": "Briefly reveals a nearby targeted area",
+      "inStore": false
     },
     "1041": {
       "id": 1041,
@@ -536,17 +545,20 @@
     "3461": {
       "id": 3461,
       "name": "Golden Transcendence (Disabled)",
-      "description": "<unique>Active:</unique> Use this trinket to teleport to one of the battle platforms. Can only be used from the summoning platform.<br><br><i><font color='#FDD017'>''It is at this magical precipice where a champion is dismantled, reforged, and empowered.''</font></i>"
+      "description": "<unique>Active:</unique> Use this trinket to teleport to one of the battle platforms. Can only be used from the summoning platform.<br><br><i><font color='#FDD017'>''It is at this magical precipice where a champion is dismantled, reforged, and empowered.''</font></i>",
+      "inStore": false
     },
     "3460": {
       "id": 3460,
       "name": "Golden Transcendence",
-      "description": "<unique>Active:</unique> Use this trinket to teleport to one of the battle platforms. Can only be used from the summoning platform.<br><br><i><font color='#FDD017'>''It is at this magical precipice where a champion is dismantled, reforged, and empowered.''</font></i>"
+      "description": "<unique>Active:</unique> Use this trinket to teleport to one of the battle platforms. Can only be used from the summoning platform.<br><br><i><font color='#FDD017'>''It is at this magical precipice where a champion is dismantled, reforged, and empowered.''</font></i>",
+      "inStore": false
     },
     "2009": {
       "id": 2009,
       "name": "Total Biscuit of Rejuvenation",
-      "description": "<consumable>Click to Consume:</consumable> Restores 80 Health and 50 Mana over 10 seconds."
+      "description": "<consumable>Click to Consume:</consumable> Restores 80 Health and 50 Mana over 10 seconds.",
+      "inStore": false
     },
     "1039": {
       "id": 1039,
@@ -576,7 +588,8 @@
       "id": 2004,
       "name": "Mana Potion",
       "description": "<groupLimit>Limited to 5 at one time.</groupLimit><br><br><consumable>Click to Consume:</consumable> <mana>Restores 100 Mana over 15 seconds.</mana>",
-      "plaintext": "Consume to restore Mana over time"
+      "plaintext": "Consume to restore Mana over time",
+      "inStore": false
     },
     "2003": {
       "id": 2003,
@@ -587,7 +600,8 @@
     "3455": {
       "id": 3455,
       "name": "Head of Kha'Zix",
-      "description": "<unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled."
+      "description": "<unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Thrill of the Hunt's Movement Speed while stealthed is doubled.",
+      "inStore": false
     },
     "1055": {
       "id": 1055,
@@ -689,7 +703,8 @@
       "id": 3348,
       "name": "Arcane Sweeper",
       "description": "<active>UNIQUE Active - Hunter's Sight:</active> An arcane mist grants vision in the target area for 5 seconds, revealing enemy champions and granting <font color='#ee91d7'>True Sight</font> of traps in the area for 3 seconds (90 second cooldown).",
-      "plaintext": "Activate to reveal a nearby area of the map"
+      "plaintext": "Activate to reveal a nearby area of the map",
+      "inStore": false
     },
     "3905": {
       "id": 3905,
@@ -725,13 +740,15 @@
       "id": 3345,
       "name": "Soul Anchor (Trinket)",
       "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><br><br><active>Active:</active> Consumes a charge to instantly revive at your Summoner Platform and grants 125% Movement Speed that decays over 12 seconds.<br><br><rules>Additional charges are gained at levels 9 and 14.</rules><br><br><font color='#BBFFFF'>(Max: 2 charges)</font></rules><br><br>",
-      "plaintext": "Consumes charge to revive champion."
+      "plaintext": "Consumes charge to revive champion.",
+      "inStore": false
     },
     "2013": {
       "id": 2013,
       "name": "Looted Oracle's Extract",
       "description": "<consumable>Click to Consume:</consumable> Grants detection of nearby invisible or unseen enemy units for 15 to 40 seconds, based on level.",
-      "plaintext": "Allows champion to see invisible or unseen enemy units"
+      "plaintext": "Allows champion to see invisible or unseen enemy units",
+      "inStore": false
     },
     "3102": {
       "id": 3102,
@@ -797,13 +814,15 @@
       "id": 3362,
       "name": "Greater Vision Totem (Trinket)",
       "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><levelLimit> *Level 9+ required to upgrade.</levelLimit><stats></stats><br><br><unique>UNIQUE Active:</unique> Places a visible ward that reveals the surrounding area and invisible units in the area until killed (120 second cooldown). Limit 1 <font color='#BBFFFF'>Vision Ward</font> on the map per player.<br><br><rules>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</rules>",
-      "plaintext": "Periodically place a Vision Ward"
+      "plaintext": "Periodically place a Vision Ward",
+      "inStore": false
     },
     "3361": {
       "id": 3361,
       "name": "Greater Stealth Totem (Trinket)",
       "description": "<groupLimit>Limited to 1 Trinket.</groupLimit><levelLimit> *Level 9+ required to upgrade.</levelLimit><stats></stats><br><br><unique>UNIQUE Active:</unique> Consume a charge to place an invisible ward that reveals the surrounding area for 180 seconds.  Stores a charge every 60 seconds, up to 2 total. Limit 3 <font color='#BBFFFF'>Stealth Wards</font> on the map per player.<br><br><rules>(Trinkets cannot be used in the first 30 seconds of a game. Selling a Trinket will disable Trinket use for 120 seconds).</rules>",
-      "plaintext": "Periodically place a Stealth Ward"
+      "plaintext": "Periodically place a Stealth Ward",
+      "inStore": false
     },
     "3117": {
       "id": 3117,
@@ -971,7 +990,8 @@
       "id": 2056,
       "name": "Pilfered Stealth Ward",
       "description": "<groupLimit>Can only carry 3 Stealth Wards in inventory.</groupLimit><br><br><consumable>Click to Consume:</consumable> Place an invisible <font color='#BBFFFF'>Stealth Ward</font> which reveals the surrounding area for <scaleLevel>60 - 120</scaleLevel> seconds.",
-      "plaintext": "Use to temporarily provide vision in an area"
+      "plaintext": "Use to temporarily provide vision in an area",
+      "inStore": false
     },
     "3024": {
       "id": 3024,
@@ -1006,7 +1026,8 @@
     "2054": {
       "id": 2054,
       "name": "Diet Poro-Snax",
-      "description": "All the flavor of regular Poro-Snax, without the calories! Keeps your Poro happy AND healthy.<br><br><consumable>Click to Consume:</consumable> Gives your Poros a delicious healthy treat."
+      "description": "All the flavor of regular Poro-Snax, without the calories! Keeps your Poro happy AND healthy.<br><br><consumable>Click to Consume:</consumable> Gives your Poros a delicious healthy treat.",
+      "inStore": false
     },
     "3022": {
       "id": 3022,
@@ -1047,7 +1068,8 @@
     "2052": {
       "id": 2052,
       "name": "Poro-Snax",
-      "description": "This savory blend of free-range, grass-fed Avarosan game hens and organic, non-ZMO Freljordian herbs contains the essential nutrients necessary to keep your Poro purring with pleasure.<br><br><i>All proceeds will be donated towards fighting Noxian animal cruelty.</i>"
+      "description": "This savory blend of free-range, grass-fed Avarosan game hens and organic, non-ZMO Freljordian herbs contains the essential nutrients necessary to keep your Poro purring with pleasure.<br><br><i>All proceeds will be donated towards fighting Noxian animal cruelty.</i>",
+      "inStore": false
     },
     "3020": {
       "id": 3020,
@@ -1094,7 +1116,8 @@
     "2050": {
       "id": 2050,
       "name": "Explorer's Ward",
-      "description": "<consumable>Click to Consume:</consumable> Places an invisible ward that reveals the surrounding area for 60 seconds."
+      "description": "<consumable>Click to Consume:</consumable> Places an invisible ward that reveals the surrounding area for 60 seconds.",
+      "inStore": false
     },
     "3380": {
       "id": 3380,
@@ -1202,7 +1225,8 @@
       "id": 2062,
       "name": "Pilfered Potion of Rouge",
       "description": "<consumable>Click to Consume:</consumable> Grants 10 (+1/Level) Adaptive Force for 45 seconds. ",
-      "plaintext": "Consume to gain a short window of power."
+      "plaintext": "Consume to gain a short window of power.",
+      "inStore": false
     },
     "3030": {
       "id": 3030,
@@ -1220,13 +1244,15 @@
       "id": 2061,
       "name": "Pilfered Health Potion",
       "description": "<consumable>Click to Consume:</consumable> Restores 50 Health over 5 seconds.",
-      "plaintext": "Consume to restore Health over time"
+      "plaintext": "Consume to restore Health over time",
+      "inStore": false
     },
     "2060": {
       "id": 2060,
       "name": "Travel Size Elixir of Wrath",
       "description": "<consumable>Click to Consume:</consumable> Grants +15 Attack Damage and <font color='#FF8811'><u>Bloodlust</u></font> for 45 to 90 seconds, based on level.<br><br><font color='#FF8811'><u>Bloodlust:</u></font> Dealing physical damage to champions heals for 10% of the damage dealt.<br><br><rules>(Travel Size Elixirs may stack with one another.)</rules>",
-      "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage to champions."
+      "plaintext": "Temporarily grants Attack Damage and heals you when dealing physical damage to champions.",
+      "inStore": false
     },
     "1402": {
       "id": 1402,
@@ -1268,7 +1294,8 @@
       "id": 2059,
       "name": "Travel Size Elixir of Sorcery",
       "description": "<consumable>Click to Consume:</consumable> Grants +25 Ability Power, 7.5 bonus Mana Regen per 5 seconds and <font color='#FF8811'><u>Sorcery</u></font> for 45 to 90 seconds, based on level. <br><br><font color='#FF8811'><u>Sorcery:</u></font> Damaging a champion or turret deals 15 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.<br><br><rules>(Travel Size Elixirs may stack with one another.)</rules><br>",
-      "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets."
+      "plaintext": "Temporarily grants Ability Power and Bonus Damage to champions and turrets.",
+      "inStore": false
     },
     "3027": {
       "id": 3027,
@@ -1280,7 +1307,8 @@
       "id": 2058,
       "name": "Travel Size Elixir of Iron",
       "description": "<consumable>Click to Consume:</consumable> Grants +150 Health, 25% Tenacity, increased champion size, and <font color='#FF8811'><u>Path of Iron</u></font> for 45 to 90 seconds, based on level.<br><br><font color='#FF8811'><u>Path of Iron:</u></font> Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.<br><br><rules>(Travel Size Elixirs may stack with one another.)</rules>",
-      "plaintext": "Temporarily increases defenses. Leaves a trail for allies to follow."
+      "plaintext": "Temporarily increases defenses. Leaves a trail for allies to follow.",
+      "inStore": false
     },
     "3026": {
       "id": 3026,
@@ -1298,7 +1326,8 @@
       "id": 2057,
       "name": "Peering Farsight Ward",
       "description": "<consumable>Click to Consume:</consumable> Reveals an area and places a visible fragile ward up to 2000 units away. This ward is untargetable by allies.",
-      "plaintext": "Grants increased range and reveals the targetted area"
+      "plaintext": "Grants increased range and reveals the targetted area",
+      "inStore": false
     },
     "3025": {
       "id": 3025,
@@ -1333,7 +1362,8 @@
     "3043": {
       "id": 3043,
       "name": "Muramana",
-      "description": "<stats>+25 Attack Damage<br><mana>+1000 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.</mana><br><mana><unique>UNIQUE Passive - Shock:</unique> Single target spells and attacks (on hit) on <font color='#FFFFFF'>Champions</font> consume 3% of current Mana to deal bonus physical damage equal to twice the amount of Mana consumed.<br><br>This effect only activates while you have greater than 20% maximum Mana.</mana>"
+      "description": "<stats>+25 Attack Damage<br><mana>+1000 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.</mana><br><mana><unique>UNIQUE Passive - Shock:</unique> Single target spells and attacks (on hit) on <font color='#FFFFFF'>Champions</font> consume 3% of current Mana to deal bonus physical damage equal to twice the amount of Mana consumed.<br><br>This effect only activates while you have greater than 20% maximum Mana.</mana>",
+      "inStore": false
     },
     "3285": {
       "id": 3285,
@@ -1344,7 +1374,8 @@
     "3042": {
       "id": 3042,
       "name": "Muramana",
-      "description": "<stats>+25 Attack Damage<br><mana>+1000 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.</mana><br><mana><unique>UNIQUE Passive - Shock:</unique> Single target spells and attacks (on hit) on <font color='#FFFFFF'>Champions</font> consume 3% of current Mana to deal bonus physical damage equal to twice the amount of Mana consumed.<br><br>This effect only activates while you have greater than 20% maximum Mana.</mana>"
+      "description": "<stats>+25 Attack Damage<br><mana>+1000 Mana</mana></stats><br><br><mana><unique>UNIQUE Passive - Awe:</unique> Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.</mana><br><mana><unique>UNIQUE Passive - Shock:</unique> Single target spells and attacks (on hit) on <font color='#FFFFFF'>Champions</font> consume 3% of current Mana to deal bonus physical damage equal to twice the amount of Mana consumed.<br><br>This effect only activates while you have greater than 20% maximum Mana.</mana>",
+      "inStore": false
     },
     "3041": {
       "id": 3041,
@@ -1355,7 +1386,8 @@
     "3040": {
       "id": 3040,
       "name": "Seraph's Embrace",
-      "description": "<stats>+50 Ability Power<br><mana>+1400 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.</mana><br><active>UNIQUE Active - Mana Shield:</active> Consumes 20% of current Mana to grant a shield for 3 seconds that absorbs damage equal to 150 plus the amount of Mana consumed (120 second cooldown)."
+      "description": "<stats>+50 Ability Power<br><mana>+1400 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.</mana><br><active>UNIQUE Active - Mana Shield:</active> Consumes 20% of current Mana to grant a shield for 3 seconds that absorbs damage equal to 150 plus the amount of Mana consumed (120 second cooldown).",
+      "inStore": false
     },
     "3715": {
       "id": 3715,
@@ -1432,7 +1464,8 @@
     "3175": {
       "id": 3175,
       "name": "Head of Kha'Zix",
-      "description": "<unique>UNIQUE Active - Bonetooth Totem:</unique> Places a Stealth Ward that lasts 180 seconds (90 Second cooldown). Limit 3 Stealth Wards on the map per player.<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Rengar gains the movement speed bonus of Thrill of the Hunt while he is stealthed."
+      "description": "<unique>UNIQUE Active - Bonetooth Totem:</unique> Places a Stealth Ward that lasts 180 seconds (90 Second cooldown). Limit 3 Stealth Wards on the map per player.<br><br><unique>UNIQUE Passive - Mementos of the Hunt:</unique> Rengar collects trophies when killing Champions and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy.<br><br><passive>3 Trophies:</passive> Rengar gains 25 Movement Speed whilst out of combat or in brush. <br><passive>6 Trophies:</passive> Increases the range of Rengar's Leap by 125.<br><passive>12 Trophies:</passive> Thrill of the Hunt's duration is increased by 5 seconds.<br><passive>20 Trophies:</passive> Rengar gains the movement speed bonus of Thrill of the Hunt while he is stealthed.",
+      "inStore": false
     },
     "3053": {
       "id": 3053,
@@ -1461,7 +1494,8 @@
     "3048": {
       "id": 3048,
       "name": "Seraph's Embrace",
-      "description": "<stats>+50 Ability Power<br><mana>+1400 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.</mana><br><active>UNIQUE Active - Mana Shield:</active> Consumes 20% of current Mana to grant a shield for 3 seconds that absorbs damage equal to 150 plus the amount of Mana consumed (120 second cooldown)."
+      "description": "<stats>+50 Ability Power<br><mana>+1400 Mana</mana><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Haste:</unique> This item gains an additional 10% Cooldown Reduction.<br><mana><unique>UNIQUE Passive - Awe:</unique> Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.</mana><br><active>UNIQUE Active - Mana Shield:</active> Consumes 20% of current Mana to grant a shield for 3 seconds that absorbs damage equal to 150 plus the amount of Mana consumed (120 second cooldown).",
+      "inStore": false
     },
     "3047": {
       "id": 3047,
@@ -1520,7 +1554,8 @@
     "2403": {
       "id": 2403,
       "name": "Minion Dematerializer",
-      "description": "<consumable>Click to Consume:</consumable> Kill target Lane Minion (550 Range, 10 Second Cooldown)."
+      "description": "<consumable>Click to Consume:</consumable> Kill target Lane Minion (550 Range, 10 Second Cooldown).",
+      "inStore": false
     },
     "3071": {
       "id": 3071,
@@ -1645,7 +1680,8 @@
     "2419": {
       "id": 2419,
       "name": "Commencing Stopwatch",
-      "description": "Transforms into a Stopwatch after 10 minutes. That Stopwatch contributes 250 gold for the items it builds into.<br><br><rules>(Stopwatch normally contributes 600 gold)</rules>"
+      "description": "Transforms into a Stopwatch after 10 minutes. That Stopwatch contributes 250 gold for the items it builds into.<br><br><rules>(Stopwatch normally contributes 600 gold)</rules>",
+      "inStore": false
     },
     "3508": {
       "id": 3508,
@@ -1653,4 +1689,5 @@
       "description": "<stats>+70 Attack Damage<br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> +10% Cooldown Reduction<br><unique>UNIQUE Passive:</unique> Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).<br><unique>UNIQUE Passive:</unique> Critical strikes restore 3% of your maximum Mana pool.",
       "plaintext": "Critical Strike provides Cooldown Reduction and Mana"
     }
-  }
+  
+}

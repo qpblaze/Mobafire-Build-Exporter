@@ -43,8 +43,7 @@ namespace LoLSets.Web.Controllers
                 return View(model);
             }
 
-            try
-            {
+            
                 ItemSet itemSet = await _mobafireService.GetItemSetAsync(model.Link, model.Title);
 
                 var settings = new JsonSerializerSettings
@@ -57,12 +56,7 @@ namespace LoLSets.Web.Controllers
 
                 var response = File(stream, "application/octet-stream", "build.json");
                 return response;
-            }
-            catch(Exception ex)
-            {
-                ModelState.AddModelError("Link", ex.Message);
-                return View(model);
-            }
+            
         }
     }
 }

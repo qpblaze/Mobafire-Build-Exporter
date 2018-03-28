@@ -43,9 +43,14 @@ namespace LoLSets.Infrastructure.Services
 
         private IEnumerable<HtmlNode> GetBlocks()
         {
-            return document.DocumentNode
+            var node = document.DocumentNode
                             .Descendants("div")
+                            .FirstOrDefault(x => x.GetAttributeValue("class", "").Contains("build-box"));
+
+            var node2 = node.Descendants("div")
                             .Where(o => o.GetAttributeValue("class", "").Contains("item-wrap self-clear float-left"));
+
+            return node2;
         }
 
         private string GetBlockName(HtmlNode node)
@@ -72,9 +77,22 @@ namespace LoLSets.Infrastructure.Services
 
         private string GetBlockItemName(HtmlNode node)
         {
-            return node.Descendants("span")
+            string name = node.Descendants("span")
                         .FirstOrDefault(o => o.GetAttributeValue("class", "")
                         .Contains("ajax-tooltip")).InnerText.Trim();
+
+            if(name.Contains(" - "))
+            {
+                int startIndex = name.IndexOf(" - ") + 3;
+                int endIndex = name.Length - startIndex;
+
+                string newName = name.Substring(startIndex, endIndex);
+                newName = "Enchantment: " + newName;
+
+                return newName;
+            }
+
+            return name;
         }
 
         private int GetBlockItemCount(HtmlNode node)
